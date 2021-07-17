@@ -1,0 +1,30 @@
+{
+  "name": "node-express-mongo",
+  "version": "1.0.0",
+  "description": "Node Express Mongo fresher examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "myserver" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expertmsp/node-express-mongo.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Mongo"
+  ],
+  "author": "Malkhan Parmar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/expertmsp/node-express-mongo/issues"
+  },
+  "homepage": "https://github.com/expertmsp/node-express-mongo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
